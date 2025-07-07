@@ -1,7 +1,7 @@
 <article>
 Force Update: [ON]
 Announcement Status: [ON]
-Update Type: [HOT]
+Update Type: [FULL]
 
 Announcement Content:
 -------------------
