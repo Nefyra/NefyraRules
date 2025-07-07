@@ -1,17 +1,16 @@
 <article>
-Force Update: [OFF]
+Force Update: [ON]
 Announcement Status: [ON]
+Update Type: [HOT]
 
 Announcement Content:
 -------------------
-本次更新内容：
-1. 修复闪退问题
-2. 优化性能
+1.无任何
 
-Version: 2.1.0
-Update Title: 重要安全更新
+Version: 5.0.0
+Update Title: 更新标题
 
 Download Links:
-Direct Download: https://example.com/v2.1.0.apk
-Browser Download: https://example.com/download.html
+Direct Download: [无]
+Browser Download: [无]
 </article>
