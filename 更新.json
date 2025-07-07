@@ -1,10 +1,10 @@
 {
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
-  "updateType": "FULL",
+  "updateType": "HOT",
   "version": "6.2.0",
   "updateTitle": "更新",
-  "HotDownload": "",
+  "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/ModerationPolicies.zip",
   "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.7/Nefyra_._1.6.7.apk",
   "announcementContent": "本次更新包含以下优化：\n1. 性能提升\n2. 界面改进"
 }
