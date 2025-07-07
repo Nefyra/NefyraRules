@@ -1,7 +1,7 @@
 {
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
-  "updateType": "FULL",
+  "updateType": "HOT",
   "version": "6.2.0",
   "updateTitle": "更新",
   "directDownload": "https://example.com/update.apk",
