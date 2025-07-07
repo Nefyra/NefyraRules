@@ -1,0 +1,10 @@
+{
+  "forceUpdate": "OFF",
+  "announcementStatus": "ON",
+  "updateType": "HOT",
+  "version": "1.2.0",
+  "updateTitle": "重要更新",
+  "directDownload": "https://example.com/update.apk",
+  "browserDownload": "https://example.com/download",
+  "announcementContent": "本次更新包含以下优化：\n1. 性能提升\n2. 界面改进"
+}
