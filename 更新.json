@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "HOT",
-  "version": "1.6.8",
+  "version": "1.6.8.001",
   "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/ModerationPolicies.zip",
   "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.8/Nefyra_._1.6.8.apk",
-  "announcementContent": "1.优化更新"
+  "announcementContent": "1.弹幕过滤规则"
 }
