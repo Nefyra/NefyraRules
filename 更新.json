@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.6.9",
+  "version": "1.6.9.001",
   "updateTitle": "更新",
-  "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/ModerationPolicies.zip",
+  "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
   "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.9/Nefyra_._1.6.9.apk",
-  "announcementContent": "1.使用RE2正则引擎"
+  "announcementContent": "1.更新规则"
 }
