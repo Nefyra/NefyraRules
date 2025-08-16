@@ -1,7 +1,7 @@
 {
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
-  "updateType": "FULL",
+  "updateType": "HOT",
   "version": "1.6.9.001",
   "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
