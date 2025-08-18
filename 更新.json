@@ -1,10 +1,10 @@
 {
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
-  "updateType": "HOT",
-  "version": "1.6.9.001",
+  "updateType": "FULL",
+  "version": "1.6.10",
   "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.9/Nefyra_._1.6.9.apk",
-  "announcementContent": "1.更新规则"
+  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.10/Nefyra_._1.6.10.apk",
+  "announcementContent": "1.缓冲指示器"
 }
