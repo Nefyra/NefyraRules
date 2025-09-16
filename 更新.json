@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.6.10",
-  "updateTitle": "更新",
+  "version": "1.7.0",
+  "updateTitle": "不稳定版本",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.6.10/Nefyra_._1.6.10.apk",
-  "announcementContent": "1.缓冲指示器"
+  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.7.0/Nefyra_._1.7.0.apk",
+  "announcementContent": "1.XPath 获取内容（仅适配部分规则）\n2.抽屉对话实时渲染Markdow \n3.优化编辑页面"
 }
