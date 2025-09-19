@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "updateTitle": "不稳定版本",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.7.1/Nefyra_._1.7.1.apk",
-  "announcementContent": "- 新增支持 JS 动态加载 HTML\n- JavaScript_main=true\n- JavaScript_Episode=true\n- 修复内存泄漏\n\n新增规则：\niwara.json\nIKBOT.json"
+  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.7.2/Nefyra_._1.7.2.apk",
+  "announcementContent": "- 优化体验与内存泄露问题"
 }
