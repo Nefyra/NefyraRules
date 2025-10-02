@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.7.2",
-  "updateTitle": "不稳定版本",
+  "version": "1.8.0",
+  "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.7.2/Nefyra_._1.7.2.apk",
-  "announcementContent": "- 优化体验与内存泄露问题"
+  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.8.0/Nefyra_._1.8.0.apk",
+  "announcementContent": "- 视频资源获取失败时尝试自动化解析（测试功能）"
 }
