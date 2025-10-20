@@ -1,0 +1,36 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@data-is-channel='1']",
+        "title": "//div[@class='thumb-under']/p[@class='title']/a/@title",
+        "playLink": "//a/@href",
+        "coverImage": "//img/@data-src",
+        "nextPage": "//div[@class='pagination ']/ul/li/a[@class='no-page next-page']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "",
+        "episode": "",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "https?://gcore%-vid.xvideos%-cdn",
+        "https?://cdn77%-vid.xvideos%-cdn.com/"
+    ],
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://www.xvideos.com/?k=@Nefyra",
+    "basePath": {
+        "episode": "https://www.xvideos.com",
+        "playLink": "https://www.xvideos.com",
+        "nextPage": "https://www.xvideos.com"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "autoLoad": true,
+    "cookie": "",
+    "Version": "1.0"
+}

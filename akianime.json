@@ -1,0 +1,38 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='flex rel overflow']",
+        "title": "//img/@alt",
+        "playLink": "//a/@href",
+        "coverImage": ".//img/@data-src",
+        "nextPage": "//a[@title='下一页']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//div[@class='anthology-list-box none'][1]",
+        "episode": ".//a[@class='hide this-link']/@href",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "mp4",
+        "https:?//v16%-tiktokcdn%-com.akamaized",
+        "https?://fkad.xn%-%-gmqr9gevarqk8t.cn",
+        "^https://love%.girigirilove%.com/([^/]+)/[^/]+/(%d+/[%w_%-]+)/([%w_%-]+)/(%d+)/playlist%.m3u8$"
+    ],
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://www.akianime.cc/bgmsearch/@Nefyra-------------.html",
+    "basePath": {
+        "episode": "https://www.akianime.cc",
+        "playLink": "https://www.akianime.cc",
+        "nextPage": "https://www.akianime.cc",
+        "coverImage": "https://www.akianime.cc"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true,
+        "coverImage": true
+    },
+    "repeat": false,
+    "Version": "1.0"
+}

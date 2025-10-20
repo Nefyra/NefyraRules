@@ -1,0 +1,40 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='video-search-item van-hairline--top']",
+        "title": ".//h3[@class='title']/text()",
+        "playLink": ".//a[contains(@href,'/detail/')]/@href",
+        "coverImage": ".//img/@data-src",
+        "nextPage": "//div[1]"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//div[@class='van-tabs__content'][1]",
+        "episode": "//div[@class='van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline']",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "mp4"
+    ],
+    "simulateClick": {
+        "episode": "van-grid-item__content van-grid-item__content--center van-grid-item__content--surround van-hairline"
+    },
+    "maxRetries": 1,
+    "retryDelay": 1000,
+    "url": "https://m.agedm.io/#/search?page=1&query=@Nefyra",
+    "BaseURL": "https://m.agedm.io/#/",
+    "basePath": {
+        "episode": "https://m.agedm.io/",
+        "playLink": "https://m.agedm.io/",
+        "nextPage": "https://m.agedm.io/"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "cookie": "",
+    "JavaScript_main": true,
+    "JavaScript_Episode": true,
+    "Version": "1.0"
+}

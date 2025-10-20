@@ -1,0 +1,39 @@
+{
+    "options": {
+        "nextPage": true,
+        "repeat": true,
+        "coverImage": true
+    },
+    "retryDelay": 5000,
+    "basePath": {
+        "nextPage": "g",
+        "episode": "https://www.iwara.tv",
+        "playLink": "https://www.iwara.tv",
+        "coverImage": "https:"
+    },
+    "startParam": "start",
+    "RegexPatterns": [
+        "/view%?filename"
+    ],
+    "autoLoad": true,
+    "T": {
+        "Toast": "特殊处理"
+    },
+    "JavaScript_main": true,
+    "xpathEpisodeConfigurations": {
+        "episode": "",
+        "region": "",
+        "overview": ""
+    },
+    "cookie": "gg_iscookie=1; kt_tcookie=1; gg_iscookie=1; __mxau__c1-BDpoxTLq=0c7cf4e3-cced-4d46-8a5b-c3ee1ddc1877; __mxaf__c1-BDpoxTLq=1758210809; closeclick=closeclick; PHPSESSID=6tbkaa6njiusv70d86k6j517or; __mxas__c1-BDpoxTLq=%7B%22sid%22%3A%22d347a14b-8052-4dac-82be-df93ab2100c5%22%2C%22vd%22%3A12%2C%22stt%22%3A521%2C%22dr%22%3A6%2C%22expires%22%3A1758271692%2C%22ct%22%3A1758269892%7D; __mxav__c1-BDpoxTLq=86",
+    "url": "https://www.iwara.tv/search?type=videos&page=0&query=@Nefyra",
+    "xpathConfigurations": {
+        "playLink": "//a[@class='videoTeaser__title']/@href",
+        "nextPage": "//li[@class='pagination__item pagination__item--disabled']/following-sibling::li[@class='pagination__item'][1]",
+        "title": "//a[@class='videoTeaser__title']/@title",
+        "coverImage": "//a[@class='videoTeaser__thumbnail']/img/@src",
+        "searchResults": "//div[@class='col-12 col-sm-6 col-md-4 col-lg-3 mt-4']"
+    },
+    "maxRetries": 3,
+    "Version": "1.0"
+}

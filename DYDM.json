@@ -1,0 +1,77 @@
+{
+    "configurations": [
+        {
+            "prefix": "\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "playLink",
+            "regionStart": "serial\" href=",
+            "regionEnd": "title"
+        },
+        {
+            "prefix": "title=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "title",
+            "regionStart": "serial\" href=",
+            "regionEnd": "</a>"
+        },
+        {
+            "prefix": "-src=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "coverImage"
+        },
+        {
+            "prefix": "href=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "nextPage",
+            "regionStart": "display\">",
+            "regionEnd": "display\""
+        }
+    ],
+    "EpisodeConfiguration": [
+        {
+            "prefix": "href=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "episode",
+            "regionStart": "播放节点列表",
+            "regionEnd": "class=\"scroll",
+            "regexMatch": "/vodplay/(%d-)--(%d-)--(%d-).html"
+        }
+    ],
+    "url": "https://1anime.me/vodsearch/-------------.html?wd=@Nefyra",
+    "RegexPatterns": [
+        "^https://m3u.nikanba.live/share/%w+.m3u8$",
+        "^https://jx.557784.xyz/vod/%d---%w+.m3u8$"
+    ],
+    "basePath": {
+        "nextPage": "https://1anime.me",
+        "playLink": "https://1anime.me",
+        "episode": "https://1anime.me"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": {
+            "nextPage": true
+        },
+        "playLink": {
+            "playLink": true
+        },
+        "episode": {
+            "episode": true
+        }
+    },
+    "repeat": false,
+    "maxRetries": 1,
+    "retryDelay": 10000,
+    "removePatterns": [
+        "amp;"
+    ],
+    "T": {
+        "Toast": "R18（部分）"
+    },
+    "Version": "1.0"
+}

@@ -1,0 +1,39 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='media']",
+        "title": "//h5/a/text()",
+        "playLink": "//h5/a/@href",
+        "coverImage": "//img/@data-src",
+        "nextPage": "//div[@class='page-more']/a[text()='下一页']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//li[@class='line-name' and text()='线路1']/following-sibling::li[1]",
+        "episode": "//div/@udata",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        ""
+    ],
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://v.ikanbot.com/search?q=@Nefyra",
+    "basePath": {
+        "nextPage": "https://v.ikanbot.com",
+        "episode": "https://v.ikanbot.com",
+        "playLink": "https://v.ikanbot.com"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "JavaScript_main": false,
+    "JavaScript_Episode": true,
+    "cookie": "",
+    "T": {
+        "Toast": "电影与电视剧"
+    },
+    "Version": "1.0"
+}

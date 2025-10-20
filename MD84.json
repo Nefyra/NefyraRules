@@ -1,0 +1,35 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='item']",
+        "title": "//a/@title",
+        "playLink": "//a/@href",
+        "coverImage": "//a/@data-bg",
+        "nextPage": "//div[@class='card pages mb20']/a[text()='下一页']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//ul[@class='play_list current']",
+        "episode": "//a/@href",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "fgjjvhkjvjn"
+    ],
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://dm84.tv/s----------.html?wd=@Nefyra",
+    "basePath": {
+        "episode": "https://dm84.tv",
+        "playLink": "https://dm84.tv",
+        "nextPage": "https://dm84.tv"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "JavaScript_main": true,
+    "cookie": "",
+    "Version": "1.0"
+}

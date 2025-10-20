@@ -1,0 +1,35 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='module-card-item module-item']",
+        "title": "//div[@class='module-card-item-info']//strong/text()",
+        "playLink": "//div[@class='module-card-item-info']//a/@href",
+        "coverImage": "//div[@class='module-item-pic']//img/@data-original",
+        "nextPage": "//div"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//div[@class='module-list sort-list tab-list his-tab-list'][1]",
+        "episode": "//a[@class='module-play-list-link']/@href",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "^gshjsjddhdhd$"
+    ],
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://www.fqdm.cc/index.php/vod/search.html?wd=@Nefyra",
+    "basePath": {
+        "episode": "https://www.fqdm.cc",
+        "playLink": "https://www.fqdm.cc",
+        "nextPage": "https://www.fqdm.cc",
+        "coverImage": "https://www.fqdm.cc"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "cookie": "",
+    "Version": "1.0"
+}

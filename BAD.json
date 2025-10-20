@@ -1,0 +1,36 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//article[@class='col-lg-3 col-sm-3 col-sm-3']",
+        "title": "//h4/a/@title",
+        "playLink": "//h4/a/@href",
+        "coverImage": "//div[@class='thumbr']/a/img/@data-echo",
+        "nextPage": "//a[contains(@class,'next-page')]/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "",
+        "episode": "",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "fffffg"
+    ],
+    "maxRetries": 1,
+    "retryDelay": 1000,
+    "autoLoad": true,
+    "url": "https://bad.news/dm/search/q-@Nefyra",
+    "basePath": {
+        "playLink": "https://bad.news",
+        "nextPage": "https://bad.news"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "T": {
+        "Toast": "R18"
+    },
+    "cookie": "",
+    "Version": "1.0"
+}

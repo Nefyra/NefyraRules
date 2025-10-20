@@ -1,0 +1,84 @@
+{
+    "configurations": [
+        {
+            "prefix": "\" href=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "playLink",
+            "regionStart": "li class=\"mb",
+            "regionEnd": "</li>"
+        },
+        {
+            "prefix": "title=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "title",
+            "regionStart": "li class=\"mb",
+            "regionEnd": "</li>"
+        },
+        {
+            "prefix": "original=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "coverImage",
+            "regionStart": "li class=\"mb",
+            "regionEnd": "</li>"
+        },
+        {
+            "prefix": "href=\"",
+            "suffix": "\"",
+            "filters": [],
+            "varName": "nextPage",
+            "regionStart": "<em>",
+            "regionEnd": "</a>"
+        }
+    ],
+    "EpisodeConfiguration": [
+        {
+            "prefix": "href='",
+            "suffix": "'",
+            "filters": [],
+            "varName": "episode",
+            "regionStart": "<div id=\"stab11\"",
+            "regionEnd": "</a></li></ul></div></ul></div>"
+        },
+        {
+            "prefix": "<p>",
+            "suffix": "</div>",
+            "filters": [],
+            "varName": "overview",
+            "regionStart": "detail_imform_desc_pre",
+            "regionEnd": "blockline1"
+        }
+    ],
+    "maxRetries": 1,
+    "retryDelay": 5000,
+    "url": "https://www.imandaow.com/search.php?searchword=@Nefyra",
+    "RegexPatterns": [
+        "index.m3u8",
+        "https://lf16",
+        "https://sf16"
+    ],
+    "basePath": {
+        "episode": "https://www.imandaow.com",
+        "playLink": "https://www.imandaow.com",
+        "nextPage": "https://www.imandaow.com/search.php"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": {
+            "nextPage": true
+        },
+        "episode": {
+            "episode": true
+        },
+        "playLink": {
+            "playLink": true
+        }
+    },
+    "repeat": false,
+    "removePatterns": [
+        "</p>"
+    ],
+    "Version": "1.0"
+}

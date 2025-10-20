@@ -4,8 +4,7 @@
         "title": "//img/@alt",
         "playLink": "//a/@href",
         "coverImage": "//img/@src",
-        "nextPage": "//a[text()='下一页']/@href
-"
+        "nextPage": "//a[text()='下一页']/@href\n"
     },
     "xpathEpisodeConfigurations": {
         "region": "//div[@class='movurl mod'][1]",
@@ -15,7 +14,6 @@
     "RegexPatterns": [
         "hhvhjjbjj"
     ],
-     "Version": "1.2"
     "maxRetries": 1,
     "retryDelay": 5000,
     "url": "https://www.ntdm9.com/search/-------------1.html?wd=@Nefyra",
@@ -31,5 +29,6 @@
         "playLink": true
     },
     "repeat": false,
-    "cookie": ""
+    "cookie": "",
+    "Version": "1.0"
 }

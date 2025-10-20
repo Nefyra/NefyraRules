@@ -1,0 +1,38 @@
+{
+    "url": "https://hanime1.me/search?query=@Nefyra",
+    "maxRetries": 3,
+    "xpathEpisodeConfigurations": {
+        "overview": "",
+        "region": "//div[@style='margin-top: 25px']",
+        "episode": "//a[@class='overlay']/@href"
+    },
+    "xpathConfigurations": {
+        "coverImage": ".//img[2]/@src",
+        "nextPage": "//a[@rel='next']/@href\n",
+        "searchResults": "//div[@class='col-xs-12 search-doujin-videos hidden-sm hidden-md hidden-lg hidden-xl hover-lighter multiple-link-wrapper'][position()>=2]",
+        "playLink": "//a[@class='overlay']/@href",
+        "title": "//div/@title"
+    },
+    "basePath": {
+        "playLink": "",
+        "nextPage": "https://hanime1.me/search",
+        "episode": ""
+    },
+    "repeat": false,
+    "startParam": "start",
+    "JavaScript_Episode": true,
+    "RegexPatterns": [
+        "(https?://[%w%-_.]+[/%w%-_.?&=]*%.mp4)",
+        "cdn77-vid.xvideos-cdn.com"
+    ],
+    "options": {
+        "playLink": true,
+        "nextPage": true,
+        "episode": true
+    },
+    "retryDelay": 5000,
+    "cookie": "_gid=GA1.2.808665783.1760027643; _gat_gtag_UA_125786247_2=1; XSRF-TOKEN=eyJpdiI6Ikd1OG5tQzVyMitjRHIwaXYzekZqTXc9PSIsInZhbHVlIjoiZlF1M0VnbnZMcFljUm14QkdETVhKTnRyWWhvSG40dHBsU1BRVGJaOWlqU3dYVk9laFNoaDNWelo4bjF0WlUzSyIsIm1hYyI6ImQ1MjU5MDVmNmU3ZDJmZDkwNWVmNDE4N2U0ZmY3NTE0NWQ1Nzg4YzJmMGZjMjJiMGVmOGQ0MTA0NWZlMmI2ZDAifQ%3D%3D; _ga_2JNTSFQYRQ=GS2.1.s1760027642$o2$g1$t1760031109$j48$l0$h0; _ga=GA1.1.1968742425.1759734683",
+    "JavaScript_main": true,
+    "verifyXPath": "//div",
+    "Version": "1.0"
+}

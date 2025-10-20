@@ -1,0 +1,38 @@
+{
+    "verifyXPath": "//div",
+    "RegexPatterns": [
+        "(https?://[%w%.%-%_/]+%.mp4)",
+        "[INCLUDE]photovideo.photo.qq.com/",
+        "http://v16m%-default%.akamaized%.net[%w%p]*"
+    ],
+    "maxRetries": 3,
+    "options": {
+        "episode": true,
+        "nextPage": true,
+        "playLink": true
+    },
+    "xpathEpisodeConfigurations": {
+        "overview": "//div[contains(span[@class='video-info-itemtitle'],'剧情')]//span[@class='content-text none']/text()",
+        "region": "//div[@class='scroll-content'][1]",
+        "episode": ".//a/@href"
+    },
+    "BaseURL": "https://www.lmm58.com/",
+    "repeat": false,
+    "basePath": {
+        "episode": "https://www.lmm58.com",
+        "nextPage": "https://www.lmm58.com/vod/search",
+        "playLink": "https://www.lmm58.com"
+    },
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='col-6 col-sm-4 col-lg-3']",
+        "nextPage": "//li[span[@class='page-link active disabled']]/following-sibling::li[1]/a/@href",
+        "playLink": ".//h6/a/@href",
+        "title": ".//h6/a/text()",
+        "coverImage": ".//img[@class='lazyload']/@data-src"
+    },
+    "startParam": "start",
+    "retryDelay": 5000,
+    "cookie": "gg_iscookie=1; PHPSESSID=v01evmv37cr4bdra2k8fguqe6c; __mxau__c1-BDpoxTLq=e9fd906c-ed3c-4a8f-a70b-b8bb7355a29a; __mxaf__c1-BDpoxTLq=1759306975; kt_tcookie=1; __mxas__c1-BDpoxTLq=%7B%22sid%22%3A%22f54bc37b-c500-4387-9992-178f00db80ad%22%2C%22vd%22%3A22%2C%22stt%22%3A1241%2C%22dr%22%3A101%2C%22expires%22%3A1760827316%2C%22ct%22%3A1760825516%7D; __mxav__c1-BDpoxTLq=329",
+    "url": "https://www.lmm58.com/vod/search.html?wd=@Nefyra",
+    "Version": "1.0"
+}

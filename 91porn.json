@@ -1,0 +1,36 @@
+{
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='well well-sm']",
+        "title": "//span[@class='video-title title-truncate m-t-5']/text()",
+        "playLink": "//a/@href",
+        "coverImage": "//img[@class='img-responsive']/@src",
+        "nextPage": "//div[@id='paging']//a[text()='»']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "",
+        "episode": "",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "https://1470423830.rsc.cdn77.org",
+        "https://la.btc620.com"
+    ],
+    "Version": "1.0",
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "url": "https://www.91porn.com/search_result.php?search_id=@Nefyra&search_type=search_videos&min_duration=",
+    "basePath": {
+        "episode": "",
+        "playLink": "",
+        "nextPage": "https://91porn.com/search_result.php"
+    },
+    "startParam": "start",
+    "options": {
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
+    },
+    "repeat": false,
+    "autoLoad": true,
+    "cookie": "CLIPSHARE=6e5de8ea64d0374dc5bec345d7dbf62f; ga=ad9a9J5I5ih4XxPoNXXZr2y%2FcEuZ%2FQVx6exLD1p2kMbiSbRUh6PM9w; 91username=4382FxIFnzZN9DyOcVWKV4GZGcBIrCKEM5BWGK4VoeEa0As; DUID=9493PpR1fSRXXuPpiqajbwsn%2BPJvMNM5ggJYzMXC6xmSQr%2BlDQ; SUID=a485hfaQOxNCy1z0NTLt7qXHi4AlENoph09Rysh4pQLl%2FqwGow; USERNAME=20a515BAMpKJSCH39vJnmMdTs0zQQxYTFMTWO9rstZr9rNo; EMAILVERIFIED=no; school=e8cf8PmrLUA%2F0Lcc8OljITsfs9%2Bs9cFyLWDwzQk; level=70adVtP2RSuK2R94G%2B9MkI2wy0khcDTvJWh7ncS2"
+}
