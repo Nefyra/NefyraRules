@@ -1,60 +1,24 @@
 {
-    "configurations": [
-        {
-            "prefix": "<a class=\"nbutton2 cell_res_button\" href=\"",
-            "suffix": "\">资源详情</a>",
-            "filters": [],
-            "varName": "playLink",
-            "regionStart": "<div class=\"cell blockdif2\">",
-            "regionEnd": "\">在线播放</a></div>",
-            "continueTraversal": false
-        },
-        {
-            "prefix": "class=\"cell_imform_name\">",
-            "suffix": "</a></div>",
-            "filters": [],
-            "varName": "title"
-        },
-        {
-            "prefix": "\" src=\"",
-            "suffix": "\" alt=\"",
-            "filters": [],
-            "varName": "coverImage"
-        },
-        {
-            "prefix": "asciifont\" href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "nextPage",
-            "regionStart": "pbutton_current asciifont\" href=\"",
-            "regionEnd": "下一页",
-            "selectIndex": 6
-        }
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='cell blockdif2']",
+        "title": "//img/@alt",
+        "playLink": "//a/@href",
+        "coverImage": "//img/@src",
+        "nextPage": "//a[text()='下一页']/@href
+"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//div[@class='movurl mod'][1]",
+        "episode": "//li/a/@href",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "hhvhjjbjj"
     ],
-    "EpisodeConfiguration": [
-        {
-            "prefix": "<a href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "episode",
-            "regionStart": "<div class=\"movurl mod\"  style=\"display:block\">",
-            "regionEnd": "</div>"
-        },
-        {
-            "prefix": "<p>",
-            "suffix": "</div>",
-            "filters": [],
-            "varName": "overview",
-            "regionStart": "detail_imform_desc_pre",
-            "regionEnd": "blockline1"
-        }
-    ],
-    "maxRetries": 3,
+     "Version": "1.1"
+    "maxRetries": 1,
     "retryDelay": 5000,
     "url": "https://www.ntdm9.com/search/-------------1.html?wd=@Nefyra",
-    "RegexPatterns": [
-        "mp4"
-    ],
     "basePath": {
         "episode": "https://www.ntdm9.com",
         "playLink": "https://www.ntdm9.com",
@@ -62,18 +26,10 @@
     },
     "startParam": "start",
     "options": {
-        "nextPage": {
-            "nextPage": true
-        },
-        "episode": {
-            "episode": true
-        },
-        "playLink": {
-            "playLink": true
-        }
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
     },
     "repeat": false,
-    "removePatterns": [
-        "</p>"
-    ]
+    "cookie": ""
 }
