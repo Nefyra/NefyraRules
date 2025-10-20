@@ -1,77 +1,37 @@
 {
-    "configurations": [
-        {
-            "prefix": "\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "playLink",
-            "regionStart": "serial\" href=",
-            "regionEnd": "title"
-        },
-        {
-            "prefix": "title=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "title",
-            "regionStart": "serial\" href=",
-            "regionEnd": "</a>"
-        },
-        {
-            "prefix": "-src=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "coverImage"
-        },
-        {
-            "prefix": "href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "nextPage",
-            "regionStart": "display\">",
-            "regionEnd": "display\""
-        }
-    ],
-    "EpisodeConfiguration": [
-        {
-            "prefix": "href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "episode",
-            "regionStart": "播放节点列表",
-            "regionEnd": "class=\"scroll",
-            "regexMatch": "/vodplay/(%d-)--(%d-)--(%d-).html"
-        }
-    ],
-    "url": "https://1anime.me/vodsearch/-------------.html?wd=@Nefyra",
+"xpathConfigurations": {
+    "searchResults": "//div[@class='module-search-item']",
+        "title": "//img/@alt",
+        "playLink": "//a/@href",
+        "coverImage": "//img/@data-src",
+        "nextPage": "//a[@title='下一页']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+    "region": "//div[@class='module-blocklist'][1]",
+        "episode": "//a/@href",
+        "overview": ""
+    },
     "RegexPatterns": [
-        "^https://m3u.nikanba.live/share/%w+.m3u8$",
-        "^https://jx.557784.xyz/vod/%d---%w+.m3u8$"
+    "hhvhjjbjj"
     ],
+    "maxRetries": 1,
+    "retryDelay": 5000,
+    "url": "https://1anime.me/vodsearch/-------------.html?wd=@Nefyra",
     "basePath": {
-        "nextPage": "https://1anime.me",
+    "episode": "https://1anime.me",
         "playLink": "https://1anime.me",
-        "episode": "https://1anime.me"
+        "nextPage": "https://1anime.me"
     },
     "startParam": "start",
     "options": {
-        "nextPage": {
-            "nextPage": true
-        },
-        "playLink": {
-            "playLink": true
-        },
-        "episode": {
-            "episode": true
-        }
+    "nextPage": true,
+        "episode": true,
+        "playLink": true
     },
     "repeat": false,
-    "maxRetries": 1,
-    "retryDelay": 10000,
-    "removePatterns": [
-        "amp;"
-    ],
+    "cookie": "",
+    "Version": "1.1",
     "T": {
-        "Toast": "R18（部分）"
-    },
-    "Version": "1.0"
+    "Toast": "R18（部分）"
+    }
 }
