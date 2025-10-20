@@ -1,84 +1,36 @@
 {
-    "configurations": [
-        {
-            "prefix": "exp\" href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "playLink"
-        },
-        {
-            "prefix": "cor4 hide\">",
-            "suffix": "</div><div",
-            "filters": [],
-            "varName": "title"
-        },
-        {
-            "prefix": "src=\"",
-            "suffix": "\"",
-            "filters": [
-                ".webp"
-            ],
-            "varName": "coverImage"
-        },
-        {
-            "prefix": "href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "nextPage",
-            "regionStart": "ho\" href=\"javascript",
-            "regionEnd": "下一页",
-            "selectIndex": 1
-        }
-    ],
-    "EpisodeConfiguration": [
-        {
-            "prefix": "href=\"",
-            "suffix": "\"",
-            "filters": [],
-            "varName": "episode",
-            "regexMatch": "playGV(%d-)-1"
-        },
-        {
-            "prefix": "pd\">",
-            "suffix": "</p></div></div>",
-            "filters": [],
-            "varName": "overview",
-            "regionStart": "剧情简介",
-            "regionEnd": "clearfix"
-        }
+    "xpathConfigurations": {
+        "searchResults": "//div[@class='public-list-box search-box flex rel']",
+        "title": "//div[@class='thumb-txt cor4 hide']/text()",
+        "playLink": "//a[@target='_self']/@href",
+        "coverImage": "//img[@data-src]/@data-src",
+        "nextPage": "//a[@title='下一頁']/@href"
+    },
+    "xpathEpisodeConfigurations": {
+        "region": "//div[@class='anthology-list-box none'][1]",
+        "episode": "//li/a/@href",
+        "overview": ""
+    },
+    "RegexPatterns": [
+        "hhvhjjbjj"
     ],
     "maxRetries": 1,
-    "retryDelay": 10000,
+    "retryDelay": 5000,
     "url": "https://anime.girigirilove.com/search/-------------/?wd=@Nefyra",
-    "RegexPatterns": [
-        "^https://m3u8%.girigirilove%.com/zijian/oldanime/%d+/%d+/cht/([%w]+)(/%d+)/playlist%.m3u8$",
-        "^https://m3u8%.girigirilove%.com/zijian/oldanime/%d+/%d+/.-/playlist%.m3u8$",
-        "^https://love%.girigirilove%.com/zijian/anime/%d+/%d+/VioletEvergarden[e]?/.-/playlist%.m3u8$",
-        "^https://love.girigirilove.com/zijian/anime/%d+/%d+/.-/playlist.m3u8$",
-        "^https://love.girigirilove.com/zijian/anime/.-/%d+/playlist.m3u8$",
-        "^https://m3u8%.girigirilove%.com/zijian/oldanime/%d+/%d-/BlackBullet/%d+/playlist.m3u8$"
-    ],
     "basePath": {
-        "coverImage": "https://anime.girigirilove.com",
-        "nextPage": "https://anime.girigirilove.com",
         "episode": "https://anime.girigirilove.com",
-        "playLink": "https://anime.girigirilove.com"
+        "playLink": "https://anime.girigirilove.com",
+        "nextPage": "https://anime.girigirilove.com",
+"coverImage": "https://anime.girigirilove.com"
     },
     "startParam": "start",
     "options": {
-        "coverImage": {
-            "coverImage": true
-        },
-        "nextPage": {
-            "nextPage": true
-        },
-        "episode": {
-            "episode": true
-        },
-        "playLink": {
-            "playLink": true
-        }
+        "nextPage": true,
+        "episode": true,
+        "playLink": true
     },
-    "repeat": true,
-    "Version": "1.0"
+    "repeat": false,
+    "cookie": "PHPSESSID=dbg5n1tjjaq9ic1u1jmh39pdka; SITE_TOTAL_ID=2cbd01f1d8dede13d74f84be3a4c2813; ecPopup=1",
+"JavaScript_main": true,
+    "Version": "1.1"
 }
