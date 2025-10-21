@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.8.3.001",
+  "version": "1.8.3.002",
   "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.8.3.001/Nefyra_._1.8.3.001.apk",
-  "announcementContent": "- 优化自动解析 \n- 优化部分逻辑 \n- 修复文本显示问题"
+  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.8.3.002/Nefyra_._1.8.3.002.apk",
+  "announcementContent": "- 优化规则更新统计"
 }
