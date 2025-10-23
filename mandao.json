@@ -80,5 +80,8 @@
     "removePatterns": [
         "</p>"
     ],
-    "Version": "1.0"
+    "T": {
+        "Toast": "网站已关闭"
+    },
+    "Version": "1.1"
 }
