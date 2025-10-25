@@ -1,5 +1,5 @@
 {
-    "verifyXPath": "//div",
+    "verifyXPath": "//input[@value='提交验证']",
     "RegexPatterns": [
         "(https?://[%w%.%-%_/]+%.mp4)",
         "[INCLUDE]photovideo.photo.qq.com/",
