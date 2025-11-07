@@ -1,9 +1,9 @@
 {
     "xpathConfigurations": {
-        "searchResults": "//article[@class='col-lg-3 col-sm-3 col-sm-3']",
+        "searchResults": "//div[@class='stui-vodlist__box']",
         "title": "//h4/a/@title",
         "playLink": "//h4/a/@href",
-        "coverImage": "//div[@class='thumbr']/a/img/@data-echo",
+        "coverImage": "//a/@data-echo-background",
         "nextPage": "//a[contains(@class,'next-page')]/@href"
     },
     "xpathEpisodeConfigurations": {
@@ -32,5 +32,5 @@
         "Toast": "R18"
     },
     "cookie": "",
-    "Version": "1.0"
+    "Version": "1.1"
 }
