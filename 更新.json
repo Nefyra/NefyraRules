@@ -2,9 +2,9 @@
   "forceUpdate": "OFF",
   "announcementStatus": "ON",
   "updateType": "FULL",
-  "version": "1.8.3.004",
+  "version": "1.8.3.005",
   "updateTitle": "更新",
   "HotDownload": "https://gh-proxy.com/github.com/Nefyra/NefyraRules/blob/main/RuleSet.zip",
-  "FullDownload": "https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.8.3.004/Nefyra_._1.8.3.004.apk",
-  "announcementContent": "- 修复XPath JX_TEXT标签显示问题"
+  "FullDownload": https://gh-proxy.com/github.com/Nefyra/Nefyra/releases/download/v1.8.3.005/Nefyra_._1.8.3.005.apk",
+  "announcementContent": "- 修复内存泄露"
 }
